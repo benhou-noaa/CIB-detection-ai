@@ -16,10 +16,13 @@ All of our training and inference have been performed on Windows x64 systems. Be
 * opencv-contrib-python==4.6.0.66
 * numpy
 * tensorflow<2.11
+* pillow
 
+This can be achieved by running 
+`pip install "tensorflow<2.11" opencv-contrib-python numpy pandas openpyxl scipy pillow`
 ### Conda
 
-* conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+`conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0`
 
 # Procedure
 1. Install CUDA, then unzip CUDNN and merge with the CUDA folder
