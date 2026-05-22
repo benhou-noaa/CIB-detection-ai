@@ -34,3 +34,6 @@ This can be achieved by running
 7. You should get an output that indicates that there are at least 1 GPUs available to you
 If this works, that means we've (likely) had success with installing the requisite dependencies needed to run the scripts.
 
+# License
+A portion of the code in use is derived from Microsoft's belugasounds project; our modifications were centered around operationalization of the process. We refer to you to their repository https://github.com/microsoft/belugasounds. For more details, refer to our license file. 
+
